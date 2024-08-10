@@ -24,6 +24,7 @@ const Tag = () => {
     }
 
       <input 
+          placeholder=" Seaech random gif"
         className='w-10/12 text-lg py-2 rounded-lg mb-[3px] text-center'
         onChange={(event) =>  setTag(event.target.value)}
         value={tag}
